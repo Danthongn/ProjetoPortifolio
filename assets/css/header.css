@@ -6,10 +6,15 @@ header {
     
 }
 
+#description {
+    margin: 120px 0 80px;
+}
+
 #profile {
     width: 120px;
     height: 120px;
     position: relative;
+    margin-bottom: 56px;
 }
 
 #profile-img {
@@ -33,6 +38,26 @@ header {
     right: 0;
 }
 
-#description :nth-child(2) {
+#description p:nth-of-type(2) {
     text-indent: 8px;
+}
+
+#description p {
+    margin-bottom: 8px;
+}
+
+#description h1 {
+    margin-bottom: 20px;
+}
+
+#arrow-down {
+    margin: 94px 0 57px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 754px;
+
 }
