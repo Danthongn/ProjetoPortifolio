@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-subtitle {
+    font: var(--subtitle);
+    color: var(--gray200);
+}
+
+.text-span-red {
+    font: var(--subtitle);
+    color: var(--red);
+}
+
+.text-h1 {
+    font: var(--h1);
+    color: var(--gray100);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--gray300);
+}
