@@ -1,0 +1,27 @@
+#my-services {
+    background-color: var(--gray600);
+}
+
+#my-services .flex-column{
+    padding: 80px 0 56px;
+}
+
+#my-services .flex-column span {
+    padding-bottom: 8px;
+}
+
+#my-services img {
+    padding-bottom: 8px;
+}
+
+#my-services h3 {
+    padding-bottom: 8px;
+}
+
+#my-services .flex-row {
+    padding-bottom: 120px;
+}
+
+.box-services:not(:last-child) {
+    margin-right: 24px;
+}

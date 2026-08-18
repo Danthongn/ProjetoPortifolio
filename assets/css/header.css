@@ -1,9 +1,8 @@
 header {
     background-image: url(../bg/Background_header.png);
     background-size: cover;
-    width: 100%;
     height: 100vh;
-    
+    overflow: hidden;
 }
 
 #description {
@@ -50,14 +49,10 @@ header {
     margin-bottom: 20px;
 }
 
-#arrow-down {
-    margin: 94px 0 57px;
+#skills :not(:last-child) {
+    margin-right: 16px;
 }
 
-#skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 754px;
-
+#arrow-down {
+    padding: 94px 0 57px;
 }
