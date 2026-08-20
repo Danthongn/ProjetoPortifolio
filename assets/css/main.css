@@ -65,3 +65,21 @@
 #projects p {
     margin-bottom: 4px;
 }
+
+#container-projects {
+    display: grid;
+    grid-template-areas: 
+    "1 2 3"
+    "4 5 6"
+    ;
+    gap: 24px;
+    margin: 0 163px 144px;
+}
+
+#my-projects .flex-column{
+    margin: 72px 0 56px;
+}
+
+#my-projects .flex-column p {
+    margin-bottom: 8px;
+}
