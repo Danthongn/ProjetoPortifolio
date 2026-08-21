@@ -14,6 +14,11 @@
     color: var(--red);
 }
 
+.text-span-purple {
+    font: var(--subtitle);
+    color: var(--purple);
+}
+
 .text-h1 {
     font: var(--h1);
     color: var(--gray100);
@@ -62,6 +67,17 @@
 .projects-border:hover {
     border: solid 2px var(--gray300);
     border-radius: 14px;
+    transition: 0.4s ease;
+}
+
+.social-border {
+    border: solid 2px transparent;
+    border-radius: 12px;
+}
+
+.social-border:hover {
+    border: solid 2px var(--gray300);
+    border-radius: 12px;
     transition: 0.4s ease;
 }
 

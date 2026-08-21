@@ -1,0 +1,19 @@
+footer {
+    background-image: url(../bg/Background_footer.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#box-social {
+    width: 400px;
+    height: 68px;
+    position: relative;
+    background-color: var(--gray400);
+    border-radius: 8px;
+    border: 2px solid transparent
+}
+
+#box-social:not(:last-child) {
+    margin-bottom: 16px;
+}
