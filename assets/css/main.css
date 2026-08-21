@@ -41,6 +41,7 @@
     position: relative;
     background-color: var(--gray400);
     border-radius: 12px;
+    border: 2px solid transparent;
     padding: 12px 12px 0;
 }
 
