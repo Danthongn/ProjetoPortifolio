@@ -48,8 +48,8 @@ footer {
     }
 }
 
-footer > div {
-    margin-bottom: 48px;
+footer > div:nth-child(1) {
+    margin: 128px 0 48px;
 }
 
 footer > div p {
