@@ -8,12 +8,58 @@ footer {
 #box-social {
     width: 400px;
     height: 68px;
-    position: relative;
     background-color: var(--gray400);
-    border-radius: 8px;
-    border: 2px solid transparent
+    border-radius:8px;
+    border: 2px solid transparent;
+    color: var(--gray300);
+    justify-content: flex-start;
+    padding: 24px 20px;
+
+}
+
+#box-social svg:nth-of-type(1) {
+    margin-right: 12px;
+}
+
+#box-social svg:nth-of-type(2) {
+    margin-left: auto;
 }
 
 #box-social:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.social-border {
+    border: solid 2px transparent;
+    border-radius:8px
+}
+
+.social-border:hover {
+    border: solid 2px var(--blue);
+    border-radius: 8px;
+    transition: 0.4s ease;
+    svg {
+        fill: var(--blue);
+        transition: 0.4s ease;
+    }
+
+    p {
+        color: var(--blue);
+    }
+}
+
+footer > div {
+    margin-bottom: 48px;
+}
+
+footer > div p {
+    margin-bottom: 8px;
+}
+
+footer > div h2 {
+    margin-bottom: 8px;
+}
+
+.social-border {
     margin-bottom: 16px;
 }

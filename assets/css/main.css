@@ -84,3 +84,20 @@
 #my-projects .flex-column p {
     margin-bottom: 8px;
 }
+
+.box-services {
+    border:solid 3px var(--gray500);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.projects-border {
+    border: solid 2px transparent;
+    border-radius: 14px;
+}
+
+.projects-border:hover {
+    border: solid 2px var(--gray300);
+    border-radius: 14px;
+    transition: 0.4s ease;
+}

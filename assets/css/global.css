@@ -35,6 +35,11 @@
     color: var(--gray100);
 }
 
+.text-md {
+    font: var(--text-md);
+    color: var(--gray300);
+}
+
 .flex-column {
     display: flex;
     align-items: center;
@@ -52,32 +57,3 @@
     font: var(--text-sm);
     color: var(--gray300);
 }
-
-.box-services {
-    border:solid 3px var(--gray500);
-    border-radius: 12px;
-    padding: 20px;
-}
-
-.projects-border {
-    border: solid 2px transparent;
-    border-radius: 14px;
-}
-
-.projects-border:hover {
-    border: solid 2px var(--gray300);
-    border-radius: 14px;
-    transition: 0.4s ease;
-}
-
-.social-border {
-    border: solid 2px transparent;
-    border-radius: 12px;
-}
-
-.social-border:hover {
-    border: solid 2px var(--gray300);
-    border-radius: 12px;
-    transition: 0.4s ease;
-}
-
