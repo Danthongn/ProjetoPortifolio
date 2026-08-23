@@ -26,12 +26,12 @@
 
     /* font incosolata */
 
-    --font-incosolata: "inconsolata", sans-serif;
+    --font-incosolata: "Inconsolata", sans-serif;
     --subtitle: 400 20px/120% var(--font-incosolata);
 
     /* font maven pro */
 
-    --font-maven-pro: "Maven-Pro", sans-serif;
+    --font-maven-pro: "Maven Pro", sans-serif;
     --text-md: 400 16px/140% var(--font-maven-pro);
     --text-sm: 400 14px/140% var(--font-maven-pro);
 

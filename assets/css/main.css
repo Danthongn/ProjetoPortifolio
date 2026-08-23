@@ -28,6 +28,13 @@
     margin-right: 24px;
 }
 
+.box-services {
+    border:solid 3px var(--gray500);
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+}
+
 
 /* ------------------- my projects ----------------------- */
 
@@ -77,18 +84,16 @@
     margin: 0 163px 144px;
 }
 
+#container-projects a {
+    text-decoration: none;
+}
+
 #my-projects .flex-column{
     margin: 72px 0 56px;
 }
 
 #my-projects .flex-column p {
     margin-bottom: 8px;
-}
-
-.box-services {
-    border:solid 3px var(--gray500);
-    border-radius: 12px;
-    padding: 20px;
 }
 
 .projects-border {

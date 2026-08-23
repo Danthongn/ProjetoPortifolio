@@ -49,10 +49,33 @@ header {
     margin-bottom: 20px;
 }
 
+#skills a {
+    padding: 0;
+}
+
 #skills :not(:last-child) {
     margin-right: 16px;
 }
 
+#skills img:hover{
+    box-shadow: 0px 0px 6px var(--blue);
+    border-radius: 50px;
+}
+
 #arrow-down {
     padding: 94px 0 57px;
+}
+
+#arrow-down img {
+    animation: arrowMove 1.5s ease-in-out infinite;
+}
+
+@keyframes arrowMove {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
 }

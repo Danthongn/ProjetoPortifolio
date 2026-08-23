@@ -40,6 +40,11 @@
     color: var(--gray300);
 }
 
+.text-sm {
+    font: var(--text-sm);
+    color: var(--gray300);
+}
+
 .flex-column {
     display: flex;
     align-items: center;
@@ -51,9 +56,4 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-}
-
-.text-sm {
-    font: var(--text-sm);
-    color: var(--gray300);
 }
